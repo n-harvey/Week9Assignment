@@ -21,10 +21,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="week9.html">Home</a>
+                        <a class="nav-link " href="week9.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="page2.html">About</a>
+                        <a class="nav-link active" href="page2.html">About</a>
                     </li>
                 </ul>
             </div>
@@ -33,18 +33,67 @@
     <br><br><br>
 
     <div class="container">
-        <table class="table table-dark table-striped">
-            <thead>
-                <th scope="col">Testing</th>
-            </thead>
+        <div class="section-title text-center">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci unde eos quia minus nobis blanditiis dolorum ipsam magni incidunt, harum debitis ad quibusdam facilis fuga. Cupiditate harum est distinctio ex!
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table table-hover table-dark table-striped text-center">
+            <caption>Languages</caption>
             <tr>
-                <td class="table-dark">testing</td>
+                <td class="table-dark">Javascript</td>
+                <td class="table-dark"><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript">What is javascript?</a></td>
             </tr>
             <tr>
-                <td class="table-dark">Testing</td>
+                <td class="table-dark">HTML</td>
+                <td class="table-dark"><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">What is HTML?</a></td>
+            </tr>
+            <tr>
+                <td class="table-dark">CSS</td>
+                <td class="table-dark"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">What is CSS?</a></td>
+            </tr>
+            <tr>
+                <td class="table-dark">React</td>
+                <td class="table-dark"><a href="https://reactjs.org/">What is React?</a></td>
             </tr>
         </table>
     </div>
+
+    <section>
+        <div class="container">
+            <div class="section-title text-center">
+                <h4>Contact Me</h4>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" id="nameInput" placeholder="Your Name">
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control" id="emailInput" placeholder="Your Email">
+                </div>
+            </div>
+            
+            <div class="mt-3">
+                <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+
+            <div class="mt-3">
+                <textarea class="form-control" id="contactMessage" rows="3" placeholder="Message"></textarea>
+            </div>
+
+            <br>
+            
+            <div class="row">
+                <div class="d-grid col-3 mx-auto">
+                    <button type="button submit" class="btn btn-dark">Send Message</button>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
       
 </body>
 </html>
